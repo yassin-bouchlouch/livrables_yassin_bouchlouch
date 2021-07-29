@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice v1</title>
+</head>
+<body>
+    
+    <table border="1">
+        <thead>
+            
+        <tbody>
+            <tr><td colspan="4" class="titre">Calcularice</td></tr>
+            </thead>
+            <tr>
+                <td><input type="button" value="C"  id="clr" onclick="clr()"></td>
+                <td colspan="3"><input type="text" id="txt" readonly ></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="+" id="val" onclick="affiche('+')"></td>
+                <td><input type="button" value="1" id="val" onclick="affiche('1')"></td>
+                <td><input type="button" value="2" id="val" onclick="affiche('2')"></td>
+                <td><input type="button" value="3" id="val" onclick="affiche('3')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="-" id="val" onclick="affiche('-')"></td>
+                <td><input type="button" value="4" id="val" onclick="affiche('4')"></td>
+                <td><input type="button" value="5" id="val" onclick="affiche('5')"></td>
+                <td><input type="button" value="6" id="val" onclick="affiche('6')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="*" id="val" onclick="affiche('*')"></td>
+                <td><input type="button" value="7" id="val" onclick="affiche('7')"></td>
+                <td><input type="button" value="8" id="val" onclick="affiche('8')"></td>
+                <td><input type="button" value="9" id="val" onclick="affiche('9')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="/" id="val" onclick="affiche('/')"></td>
+                <td><input type="button" value="." id="val" onclick="affiche('.')"></td>
+                <td><input type="button" value="0" id="val" onclick="affiche('0')"></td>
+                <td><input type="button" value="=" id="eq" onclick="calc()"></td>
+            </tr>
+        </tbody>
+    </table>
+  
+    <script src="app.js"></script>    
+</body>
+</html>

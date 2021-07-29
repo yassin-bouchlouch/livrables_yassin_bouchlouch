@@ -1,0 +1,446 @@
+.body{
+  background-color: #F2B6A0!important;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+
+a {
+  color: #ffc451;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffd584;
+  text-decoration: none;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.navbar{
+  background-color: #fff7f4!important;
+}
+
+.navbar .navbar-brand{
+  margin-left: 100px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #A64E2E;
+}
+
+.navbar .nav-link {
+  margin-right: 100px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem!important;
+  padding-right: 1rem!important;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #A64E2E;
+
+}
+
+.navbar .nav-link.active{
+  border-bottom: #333 1px solid;
+}
+
+.carousel-item{
+  height:550px;
+}
+
+.carousel-inner .carousel-item h5{
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 5rem;
+  letter-spacing: .3rem;
+  text-transform: uppercase;
+  align-self: center;
+
+}
+
+.carousel-image-1{
+  background: url('../img/image1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2{
+  background: url('../img/image2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3{
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
+#home-heading {
+  
+  position: relative;
+  min-height: 200px;
+  background: url('../img/image4.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 235, 226, 0.438);
+  } */
+
+ 
+
+
+  #home-heading h1{
+    margin-bottom: 2rem;
+    color: #D97855;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+
+  #home-heading p{
+    color: #A64E2E;
+  }
+
+  .small-about{
+  margin-top: 3rem;
+  position: relative;
+  min-height: 200px;
+  background: url('../img/image4.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+  }
+  .small-about .heading{
+    margin-top: 3rem;
+  }
+
+  .small-about .heading h4{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #A64E2E;
+    
+  }
+  .small-about .heading p{
+   
+    font-weight: 400;
+    color: #A64E2E;
+    
+  }
+
+  
+
+    
+    
+@media (min-width: 576px) { 
+  
+ 
+   }
+    
+
+
+
+@media (max-width: 576px) { 
+  
+  .services .icon-box {
+    display: none;
+   }
+  
+ 
+
+.py-5 {
+  padding-top: 0rem!important;
+   }
+
+   .small-about .heading{
+    margin-top: 3rem!important;
+  }
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  text-align: center;
+  border: 1px solid #ebebeb;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.services .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #F2B6A0;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.services .icon-box .icon i {
+  color: #151515;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+ 
+}
+
+.services .icon-box h4 a {
+  color: #151515;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box h4 a:hover {
+  color: #D97855;
+}
+
+.services .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.services .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+
+/*--------------------------------------------------------------
+# Events Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ffc451;
+}
+
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc451;
+}
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
+}
+
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background:#A64E2E;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #D97855;
+  border-bottom: 1px solid #F2B6A0;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #A64E2E;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #A64E2E;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #A64E2E;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #A64E2E;
+}
+
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+}
+
+#footer .footer-top .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #A64E2E;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+  background: #A64E2E;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
